@@ -1,0 +1,27 @@
+.main-content {
+  width: 95%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 20px;
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+header, footer {
+  grid-column: 1 / -1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+footer {
+  padding-bottom: 10px;
+}
